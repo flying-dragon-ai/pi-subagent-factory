@@ -6,19 +6,19 @@
 > TL;DR — one tool call scans up to 6,000 files (languages, frameworks, databases, testing, build tooling, monorepo, Docker, CI), then deterministically generates 4–10 specialized subagents with per-agent tool allowlists and thinking levels. The scan is a rules engine: **0 model tokens**. Smoke-tested end to end on a React + Prisma + Vitest project: 8 agents generated in under 5 seconds.
 
 [![pi package](https://img.shields.io/badge/pi.dev-packages-blue)](https://pi.dev/packages)
-[![npm](https://img.shields.io/npm/v/%40konbakuyomu%2Fpi-subagent-factory)](https://www.npmjs.com/package/@konbakuyomu/pi-subagent-factory)
+[![npm](https://img.shields.io/npm/v/pi-subagent-factory)](https://www.npmjs.com/package/pi-subagent-factory)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
 ## Install
 
 ```bash
-pi install npm:@konbakuyomu/pi-subagent-factory
+pi install npm:pi-subagent-factory
 ```
 
 Try once without installing:
 
 ```bash
-pi -e npm:@konbakuyomu/pi-subagent-factory
+pi -e npm:pi-subagent-factory
 ```
 
 ## How it works
