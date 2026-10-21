@@ -1,0 +1,28 @@
+{
+	"name": "@konbakuyomu/pi-subagent-factory",
+	"version": "0.1.0",
+	"description": "Auto-scan any codebase and generate a tailored pi subagent team (architect / implementer / reviewer / tester + stack specialists) with ready-to-use subagent_spawn args. 自动扫描项目技术栈，自动创建专属 subagent 团队，一键并行派活。",
+	"type": "module",
+	"license": "MIT",
+	"private": false,
+	"keywords": ["pi-package", "pi", "pi-extension", "subagents", "subagent-factory", "agent-factory", "codebase-scan", "codebase-analysis", "multi-agent", "claude-code", "coding-agent", "subagent-spawn"],
+	"files": ["extensions", "skills", "scripts", "README.md", "LICENSE"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/flying-dragon-ai/pi-subagent-factory.git"
+	},
+	"bugs": {
+		"url": "https://github.com/flying-dragon-ai/pi-subagent-factory/issues"
+	},
+	"homepage": "https://pi.dev/packages/@konbakuyomu/pi-subagent-factory",
+	"pi": {
+		"extensions": ["./extensions/subagent-factory.ts"],
+		"skills": ["./skills"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-tui": "*",
+		"typebox": "*"
+	}
+}
